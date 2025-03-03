@@ -3,12 +3,10 @@ plugins {
     id 'application'
 }
 
-sourceCompatibility = 1.8
-
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    testCompile 'junit:junit:4.12'
+    implementation 'junit:junit:4.13.2'
 }
